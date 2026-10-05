@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    color: white;
+;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: #482A0C;
+}
+
+
+
+@import './blocks/header/header';
+@import './blocks/main/main';

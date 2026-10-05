@@ -1,0 +1,135 @@
+main {
+    padding: 60px max(calc(50% - 720px), 64px);
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 60px 0px;
+}
+
+section>h2 {
+    font-size: 4rem;
+    padding-bottom: 50px;
+}
+
+table {
+    border: 4px white solid;
+    border-collapse: collapse;
+}
+
+table th {
+    font-size: 2.5rem;
+
+    border: 4px white solid;
+    padding: 8px 16px;
+    background-color: #835220;
+}
+
+table td {
+    text-align: left;
+    font-size: 2rem;
+
+    border: 1px rgba(255, 255, 255, 0.5) solid;
+    border-left: 4px white solid;
+
+    padding: 8px 16px;
+}
+
+
+#what-i-learn article {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+
+    section {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 40px;
+
+        img {
+            width: 500px;
+        }
+
+        p {
+            font-size: 1.5rem;
+        }
+
+        h3 {
+            font-size: 3rem;
+        }
+
+        ul {
+            padding: 0;
+
+            display: flex;
+            gap: 48px;
+
+            li {
+                list-style: none;
+                cursor: pointer;
+
+                a {
+                    color: #835220;
+                    font-size: 2rem;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+
+}
+
+#my-software {
+    .text {
+        font-size: 1.5rem;
+        text-align: center;
+        padding-bottom: 60px;
+    }
+
+    .wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px;
+
+        article {
+            width: 550px;
+
+            display: flex;
+            align-items: center;
+            gap: 24px;
+
+            border: 4px white solid;
+            background-color: #835220;
+            padding: 24px;
+
+            img {
+                height: fit-content;
+                width: 120px;
+            }
+
+            .google-chrome {
+                border-radius: 50%;
+            }
+
+            div {
+                display: flex;
+                flex-direction: column;
+                gap: 16px;
+
+                h3 {
+                    font-size: 2.5rem;
+                }
+
+                p {
+                    font-size: 1.25rem;
+                }
+            }
+
+        }
+    }
+}
