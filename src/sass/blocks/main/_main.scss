@@ -76,6 +76,15 @@ table td {
                     color: #835220;
                     font-size: 2rem;
                     text-decoration: underline;
+
+                    padding: 8px;
+                    border-radius: 8px;
+
+                    transition: all 0.5s;
+
+                    &:hover {
+                        background-color: #C3946B;
+                    }
                 }
             }
         }
