@@ -3,7 +3,7 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
     color: white;
-;
+    ;
 }
 
 html {
@@ -17,5 +17,17 @@ body {
 
 
 @import './blocks/header/header';
+@import './blocks/header/media';
+
 @import './blocks/main/main';
+@import './blocks/main/media';
+
 @import './blocks/footer/footer';
+@import './blocks/footer/media';
+
+
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 14px;
+    }
+}

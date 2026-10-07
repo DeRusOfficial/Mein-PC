@@ -1,5 +1,10 @@
 main {
-    padding: 60px max(calc(50% - 720px), 64px);
+    padding: 120px max(calc(50% - 720px), 64px);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 120px;
 }
 
 section {
@@ -7,7 +12,7 @@ section {
     flex-direction: column;
     align-items: center;
 
-    padding: 60px 0px;
+    // padding: 60px 0px;
 }
 
 section>h2 {
@@ -42,17 +47,20 @@ table td {
 #what-i-learn article {
     display: flex;
     flex-direction: row;
+    align-items: center;
     gap: 40px;
 
+    img {
+        height: fit-content;
+        width: 40%;
+    }
+
     section {
+        width: 60%;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         gap: 40px;
-
-        img {
-            width: 500px;
-        }
 
         p {
             font-size: 1.5rem;

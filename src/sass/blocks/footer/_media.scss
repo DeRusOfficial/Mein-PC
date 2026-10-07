@@ -1,0 +1,19 @@
+@media screen and (max-width: 768px) {
+    footer {
+        padding: 40px max(calc(50% - 720px), 64px);
+
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 32px;
+
+        .sources>p {
+            text-align: center;
+        }
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1000px) {
+    .sources {
+        width: 50%;
+    }
+}
