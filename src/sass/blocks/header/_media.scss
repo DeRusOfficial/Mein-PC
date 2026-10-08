@@ -46,3 +46,9 @@
         }
     }
 }
+
+@media screen and (min-width: 769px) and (max-width: 900px) {
+    .landing-section__img {
+        width: 600px;
+    }
+}

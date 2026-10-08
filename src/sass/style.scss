@@ -16,14 +16,14 @@ body {
 
 
 
-@import './blocks/header/header';
-@import './blocks/header/media';
+@use './blocks/header/header';
+@use './blocks/header/media';
 
-@import './blocks/main/main';
-@import './blocks/main/media';
+@use './blocks/main/main';
+@use './blocks/main/media';
 
-@import './blocks/footer/footer';
-@import './blocks/footer/media';
+@use './blocks/footer/footer';
+@use './blocks/footer/media';
 
 
 @media screen and (max-width: 768px) {

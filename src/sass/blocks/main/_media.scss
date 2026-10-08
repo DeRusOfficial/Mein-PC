@@ -1,6 +1,70 @@
-@media screen and (max-width: 480px) {}
+@media screen and (max-width: 480px) {
+    main {
+        padding: 80px 16px;
+        gap: 80px;
+    }
 
-@media screen and (max-width: 768px) {
+    section>h2 {
+        font-size: 3rem;
+        padding-bottom: 32px;
+        text-align: center;
+    }
+
+    table th {
+        font-size: 1.25rem;
+        padding: 4px 4px;
+    }
+
+    table td {
+        font-size: 1.2rem;
+        padding: 4px 4px;
+    }
+
+    #what-i-learn article {
+        flex-direction: column;
+        align-items: center;
+        gap: 0px;
+
+        img {
+            width: 85%;
+            padding-bottom: 40px;
+        }
+
+        section {
+            align-items: center;
+            gap: 24px;
+
+            h3 {
+                font-size: 2.3rem;
+                align-self: center;
+            }
+
+            ul {
+                gap: 32px;
+            }
+        }
+    }
+
+    #my-software {
+        .text {
+            padding-bottom: 40px;
+        }
+
+        .wrapper {
+
+            article {
+                width: fit-content;
+                padding: 24px 8px;
+
+                img {
+                    width: 100px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
     main {
         padding: 80px 16px;
         gap: 80px;
@@ -40,6 +104,7 @@
                 font-size: 2.3rem;
                 align-self: center;
             }
+
             ul {
                 gap: 32px;
             }
@@ -50,11 +115,13 @@
         .text {
             padding-bottom: 40px;
         }
+
         .wrapper {
 
             article {
                 width: fit-content;
                 padding: 24px 8px;
+
                 img {
                     width: 100px;
                 }
